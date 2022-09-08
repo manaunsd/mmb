@@ -1,0 +1,42 @@
+{
+  "Name": "1212",
+  "CreationDate": "2022-9-8",
+  "Commands": [
+    {
+      "Command": "csvRead",
+      "Target": "mumbaiaddres.csv",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"app\"]/div/div/div/div/div/div/div/div/div/div[5]/div/div[2]/div/input",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "type",
+      "Target": "xpath=//*[@id=\"app\"]/div/div/div/div/div/div/div/div/div/div[5]/div/div[2]/div/input",
+      "Value": "${!COL1}",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"app\"]/div/div/div/div/div/div/div/div/div/div[6]/div/div/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"app\"]/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[3]/div/button",
+      "Value": "",
+      "Description": ""
+    },
+    {
+      "Command": "click",
+      "Target": "xpath=//*[@id=\"app\"]/div/div/div/div/div/div/div/div[2]/div[2]/div/div/div/a/img",
+      "Value": "",
+      "Description": ""
+    }
+  ]
+}
